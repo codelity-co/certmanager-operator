@@ -71,7 +71,7 @@ rules:
   resources: ["ingresses/finalizers"]
   verbs: ["update"]
 
-- apiGroups: ["charts.helm.k8s.io"]
+- apiGroups: ["helm.operator-sdk"]
   resources: ["certmanagers", "certmanagers/status"]
   verbs: ["get", "list", "watch", "create", "update", "delete", "patch"]
 
