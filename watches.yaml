@@ -1,5 +1,5 @@
 ---
 - version: v1alpha1
-  group: helm.operator.sdk
+  group: helm.operator-sdk
   kind: CertManager
   chart: helm-charts/cert-manager
